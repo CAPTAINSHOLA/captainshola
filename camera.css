@@ -1,0 +1,114 @@
+
+h2{
+  color: white;
+  margin-top: 100px;
+  font-size: 50px;
+}
+h3{
+  color: white;
+    font-size: 51px;
+}
+a{
+  color: white;
+  padding-left: 15px;
+  text-decoration: none;
+  margin-left: 15px;
+
+}
+.home{
+    margin-left: 70px;
+}
+ul{
+  list-style: none;
+  }
+ul li{
+  display: inline;
+}
+body{
+  background-color: black;
+  background-image: url('unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+  margin-left: 15px;
+  }
+.code{
+display: flex;
+margin-top: 0px;
+  }
+.learn{
+  border: 2px solid white;
+  padding: 7px 6px;
+  margin-top: 12px;
+}
+.sub{
+  color: black;
+  background-color: white;
+  padding: 8px 6px;
+  margin-top: 12px;
+}
+.next{
+margin-top: 100px;
+
+
+}
+fieldset{
+
+}
+.menu-mobile{
+  display:none;
+}
+
+
+
+@media only screen and (max-width:768px){
+  body{
+    background-color: black;
+    background-image: url('unsplash-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .code{
+  display: block;
+  margin-top: 0px;
+
+    }
+    ul li{
+      display: block;
+     margin-left: -20px;
+    }
+    .home{
+        margin-left: 14px;
+    }
+    .menu{
+      display: none;
+    }
+    .menu-mobile{
+      display: block;
+      margin-left: 250px;
+    }
+    .burger{
+      font-size:35px;
+      color:white;
+      margin-top: -52px;
+      cursor: pointer;
+      transition: 1s;
+    }
+    .burg{
+      font-size:35px;
+      color:white;
+      margin-top: -10px;
+      color: red;
+      cursor: pointer;
+    }
+    .anchor{
+    margin-top: 15px;
+
+  }
+  .anchorx{
+    display:none;
+      transition: 1s;
+  }
+  }
