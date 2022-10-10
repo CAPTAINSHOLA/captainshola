@@ -138,28 +138,30 @@ font-size: 25px;
 margin-top: 60px;
 color: #2f4f4f;
 }
-/**
+.iconic{
+  display: flex;
+  text-align: center;
+  margin-top: 150px;
+}
 .facebook{
   text-decoration: none;
-  color: #0000CD;
-  font-size: 50px;
-  margin-bottom: 100px;
+  margin-left:0px;
 }
 .instagram{
   text-decoration: none;
-  color: #B22222;
-    font-size: 50px;
+  margin-left: 35px;
 }
 .whatsapp{
   text-decoration: none;
-  color: #7FFF00;
-    font-size: 50px;
+  margin-left: 35px;
 }
 .twitter{
   text-decoration: none;
-  color: #1E90FF;
-  font-size: 50px;
-  margin-bottom: 20px;
+  margin-left: 35px;
+}
+.linkedin{
+  text-decoration: none;
+  margin-left: 35px;
 }
 .foot{
   color:black;
