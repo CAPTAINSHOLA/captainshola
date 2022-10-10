@@ -142,26 +142,27 @@ color: #2f4f4f;
   display: flex;
   text-align: center;
   margin-top: 150px;
+  margin-left: 100px;
 }
 .facebook{
   text-decoration: none;
-  margin-left:0px;
+  margin-left:100px;
 }
 .instagram{
   text-decoration: none;
-  margin-left: 35px;
+  margin-left: 55px;
 }
 .whatsapp{
   text-decoration: none;
-  margin-left: 35px;
+  margin-left: 55px;
 }
 .twitter{
   text-decoration: none;
-  margin-left: 35px;
+  margin-left: 55px;
 }
 .linkedin{
   text-decoration: none;
-  margin-left: 35px;
+  margin-left: 55px;
 }
 .foot{
   color:white;
